@@ -1,6 +1,6 @@
 # Predicting-Patient-Mortality
 
-In this project, I use ICU clinical data to predict patient mortality one month after discharge from the hospital. THe available data has the following features:
+In this project, I use ICU clinical data to predict patient mortality one month after discharge from the hospital. The available data has the following features:
 - **patient_id**: unique patient identification number
 - **event_id**: Encodes clinical events the patient has had. There are 3 overarching types of events: when the patient recieves a drug, when the patient recieved a diagnosis, and when the patient recieves a laboratory test result. There are further subdivded depending on the specific diagnosis or test result. 
 - **event_description**: Describes the type of diagnosis or drug from event_id
